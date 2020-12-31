@@ -1,0 +1,13 @@
+@import "./variables";
+@import "./mixins";
+@import "./card";
+@import "./accordian";
+
+.background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, $background1, $background2);
+  overflow: auto;
+  font-family: "Kumbh Sans", sans-serif;
+}

@@ -1,0 +1,64 @@
+.accordian {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid $dividers;
+  cursor: pointer;
+
+  &__question {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    &-notActive {
+      color: $textPrimary;
+      font-size: $bodyFont;
+      &:hover {
+        color: $softred;
+      }
+    }
+    &-active {
+      color: $textPrimary;
+      font-size: $bodyFont;
+      font-weight: 700;
+    }
+  }
+
+  &__answer {
+    p {
+      margin-top: 0;
+      font-size: $bodyFont;
+      color: $textSecondary;
+      padding-right: 10px;
+    }
+    animation: appearIn 0.2s;
+  }
+}
+
+.arrow {
+  margin-right: 10px;
+  transition: all 0.2s;
+  transform: rotate(0deg);
+  &-active {
+    margin-right: 10px;
+    transition: all 0.2s;
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes appearIn {
+  0% {
+    display: none;
+    height: 0;
+    opacity: 0;
+  }
+  50% {
+    display: block;
+    opacity: 0.5;
+    height: 50%;
+  }
+  100% {
+    display: block;
+    height: 100%;
+    opacity: 1;
+  }
+}
