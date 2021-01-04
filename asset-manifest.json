@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/faq-card/static/css/main.266d1093.chunk.css",
+    "main.js": "/faq-card/static/js/main.857c4cd1.chunk.js",
+    "main.js.map": "/faq-card/static/js/main.857c4cd1.chunk.js.map",
+    "runtime-main.js": "/faq-card/static/js/runtime-main.410362e3.js",
+    "runtime-main.js.map": "/faq-card/static/js/runtime-main.410362e3.js.map",
+    "static/js/2.1280ef07.chunk.js": "/faq-card/static/js/2.1280ef07.chunk.js",
+    "static/js/2.1280ef07.chunk.js.map": "/faq-card/static/js/2.1280ef07.chunk.js.map",
+    "index.html": "/faq-card/index.html",
+    "precache-manifest.abfde994ab3a7f5de8c0cd8cea34abea.js": "/faq-card/precache-manifest.abfde994ab3a7f5de8c0cd8cea34abea.js",
+    "service-worker.js": "/faq-card/service-worker.js",
+    "static/css/main.266d1093.chunk.css.map": "/faq-card/static/css/main.266d1093.chunk.css.map",
+    "static/js/2.1280ef07.chunk.js.LICENSE.txt": "/faq-card/static/js/2.1280ef07.chunk.js.LICENSE.txt",
+    "static/media/arrowDown.svg": "/faq-card/static/media/arrowDown.ba0110cb.svg",
+    "static/media/bgDesktop.svg": "/faq-card/static/media/bgDesktop.a2580ee9.svg",
+    "static/media/bgMobile.svg": "/faq-card/static/media/bgMobile.40d8475d.svg",
+    "static/media/box.svg": "/faq-card/static/media/box.a7ef46ea.svg",
+    "static/media/womanDesktop.svg": "/faq-card/static/media/womanDesktop.44e30650.svg",
+    "static/media/womanMobile.svg": "/faq-card/static/media/womanMobile.daf66934.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.410362e3.js",
+    "static/js/2.1280ef07.chunk.js",
+    "static/css/main.266d1093.chunk.css",
+    "static/js/main.857c4cd1.chunk.js"
+  ]
+}
