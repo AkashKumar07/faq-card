@@ -18,4 +18,4 @@ This command starts up the app on the local device at http://localhost:3000.
 - create-react-app : For setting up a react application.
 - sass: For compiling the sass to css
 
-###### You can also visit the react application at http://akashkumar07.github.io/faq-card/
+###### You can also visit the react application at https://akashkumar07.github.io/faq-card/
